@@ -86,10 +86,10 @@ int main(int argc, char **argv) {
 
      Parcel data, reply;
      data.writeInterfaceToken(String16("com.android.internal.telephony.ISms"));
-     data.writeString16(String16("com.leonnewton.sendsmsreflcet"));
+     data.writeString16(String16("com.example.luoge.sendsms"));
      data.writeString16(String16("15555215556"));
      data.writeString16(String16("5554"));
-     data.writeString16(String16("20161126test"));
+     data.writeString16(String16("send sms by binder"));
      data.writeInt32(0);
      data.writeInt32(0);
  
